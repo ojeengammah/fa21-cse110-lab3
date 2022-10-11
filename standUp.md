@@ -1,7 +1,7 @@
 # StandUp Notes for Agile Teams
 **Date:** 10-11-2022 
 <br>
-**Group Leaer:** Ojeen Gammah
+**Group Leader:** Ojeen Gammah
 
 ## Team Member #1 (name)
 - What did I work on yesterday?
