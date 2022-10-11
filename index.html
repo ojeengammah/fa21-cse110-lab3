@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- added link tag for external CSS-->
+    <link rel="stylesheet" href="mystyle.css"> 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,15 +18,19 @@
             <a href="#comments">Comments/Questions/Concerns</a> |
             <a href="#images">Images</a> |
             <a href="#recording">Recording</a> |
-            <a href="#extras">Extra</a>
+            <a href="#extras">Extra</a> |
+            <i><a href="https://github.com/ojeengammah/Lab2_Starter">Link to GitHub</a></i>
         </nav>
         </header>
 
-        <i><a href="https://github.com/ojeengammah/Lab2_Starter">Link to GitHub</a></i>
+        
 <main>
+    <!--h1 tag defines the highest level or most important heading in the HTML document in this case is 
+    representing the title .-->
     <h1>Pomodoro Timer First Brainstorm</h1>
+    
+    <h3>Brainstorming", "check-ins", "documentation </h3>
     <hr>
-    <h2>Brainstorming", "check-ins", "documentation </h2>
     <p>In today's meeting we will go over some of the ideas we have and share individual <strong>documents</strong>.</p>
 
     <h3 id="date"> Date</h3> 
@@ -67,20 +73,20 @@
     <h3 id="images">Images</h3>
     <hr>
     <img src = "https://d2slcw3kip6qmk.cloudfront.net/marketing/blogs/chart/boring-meetings-not-with-diagrams-as-visual-aids/venn_example-500x476.png" alt = "meeting"> 
-
+    <!--in this section we are representing the recording such video/audio-->
     <h3 id="recording">Recording</h3>
     <hr>
    <ol><li>
     <figure>
         <figcaption>Audio recording of the meeting:</figcaption>
-           <audio controls src="sample1.mp3"> </audio>
+           <audio controls src="./Media/audio.mp3"> </audio>
     </figure></li>
     
         <li><figure>
             <figcaption>Video recording of the meeting:</figcaption>
         <video  width="320" height="240" controls>
 
-            <source src="sample-30s.mp4" type="video/mp4">
+            <source src="./Media/video.mp4" type="video/mp4">
     
           </video>
         </figure></li>

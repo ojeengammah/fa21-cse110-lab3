@@ -1,0 +1,25 @@
+  /*in this file I have decided to go with the external CSS and edit the HTML using CSS sylesheet*/
+body {
+    background-color: #504F40;
+  }
+  /*in this section, I am editing the H1 section giving it all the same color*/
+  h1 {
+    color:  #233B5A;
+    margin-left: 20px;
+  }
+  /*in this section, I am editing the H2 section giving it all the same color*/
+  h2{
+    color: #F0D893;
+    margin-left: 20px;
+  }
+  /*in this section, I am editing the H3 section giving it all the same color*/
+  h3 {
+    color:  #677961;
+    margin-left: 20px;
+  }
+ 
+  /* making sure the title is centered in the webpage*/ 
+  h1 {text-align: center;}
+
+  a:link {color: #AFC47B;}  
+  a:visited {color: #66AD97;}
