@@ -50,11 +50,11 @@ body {
     padding-right: 30px;
     padding-bottom: 40px;
     padding-left: 4em;
-    border-top: 2px solid #98CCCE;
-    border-right: 2px solid #98CCCE;
-    border-bottom: 2px solid #98CCCE;
-    border-left: 2px solid #98CCCE;
-    border-radius: 20px;
+    border-top: 2px solid #e12b0b;
+    border-right: 2px solid #f7fcfc;
+    border-bottom: 2px solid hsl(203, 98%, 51%);
+    border-left: 2px solid #f7fcfc;
+    border-radius: 24px;
     border-style: groove;
   }
   audio {
