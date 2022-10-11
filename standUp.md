@@ -1,4 +1,7 @@
 # StandUp Notes for Agile Teams
+**Date:** 10-11-2022 
+<br>
+**Group Leaer:** Ojeen Gammah
 
 ## Team Member #1 (name)
 - What did I work on yesterday?
@@ -30,7 +33,7 @@
 - What am I working on today?
 - What issues are blocking me?
 ---
-## Team Member #7 (name)
+## Team Member 7 (name)
 - What did I work on yesterday?
 - What am I working on today?
 - What issues are blocking me?
