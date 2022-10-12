@@ -14,7 +14,7 @@ body {
   }
   /*in this section, I am editing the H3 section giving it all the same color*/
   h3 {
-    color:  #677961;
+    color:  #84bc3c9d;
     margin-left: 20px;
   }
   hr {
@@ -24,15 +24,21 @@ body {
   }
   img {
     border-radius: 20%;
+    max-width: 1000px;
+    min-width: 300px;
+    width: 30%;
+
+    
   }
  
   /* making sure the title is centered in the webpage*/ 
-  h1 {text-align: center;}
+  .title {text-align: center;}
 
   a:link {color: #AFC47B;}  
   a:visited {color: #66AD97;}
 
   div {
+    position: sticky; 
     width: 250px;
     border: 5px solid rgb(7, 7, 7);
     border-radius: 20px;
@@ -41,6 +47,7 @@ body {
     border-style: groove;
   }
   .figures {
+    
     width: 400px;
     margin-top: 40px;
     margin-right: 30px;
@@ -63,4 +70,41 @@ body {
   video {
   margin-top: 1px;
  }
- 
+ .figures{
+  text-decoration: underline #8D6826;
+}
+.right {
+  position: absolute;
+  right: 0px;
+  width: 0.65in;
+  padding: 10px;
+}
+h5{
+  color: #84bc3c;
+}
+h1{
+  display: block;
+  padding: 5px;
+  border: 1px solid blue;
+  background-color: rgb(194, 194, 184);
+}
+/*this hidden class not supposed to be shown on the page.*/
+.hidden{
+  display: none;
+}
+#images {
+  width: 20px;
+  height: 20px;
+  max-width: 20px ;
+  max-height: 20px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  align-self: auto;
+}
+body {
+  display: grid;
+  justify-items: start;
+} 
