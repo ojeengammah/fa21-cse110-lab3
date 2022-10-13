@@ -133,5 +133,12 @@ a[title] {
 }
 h5, p {
   color: rgb(69, 2, 19);
+}
+li {
+  list-style-type: disc;
+  
+}
 
+li li {
+  list-style-type: circle;
 }
