@@ -136,9 +136,17 @@ h5, p {
 }
 li {
   list-style-type: disc;
-  
+
 }
 
 li li {
   list-style-type: circle;
+}
+h7 em { color: blue; }
+h10 + h11 { opacity: 5;
+color: green; }
+
+body > p { color: blue; }
+li:first-of-type + li {
+  color: #8D6826;
 }
