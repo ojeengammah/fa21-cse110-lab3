@@ -109,6 +109,9 @@ body {
 }
 body {
   display: grid;
+  grid: unset;
+  grid: revert;
+
  
 } 
 .names{
