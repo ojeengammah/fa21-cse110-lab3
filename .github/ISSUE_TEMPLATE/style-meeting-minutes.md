@@ -1,6 +1,6 @@
 ---
-name: Style meeting minutes
-about: Describe this issue template's purpose here.
+name: Adding Cascading Style Sheets (CSS) to your Meeting Minutes  
+about: Style meeting minutes
 title: ''
 labels: documentation
 assignees: ojeengammah
