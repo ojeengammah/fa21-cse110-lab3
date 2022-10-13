@@ -1,7 +1,7 @@
 ---
 name: Create meeting minutes template
-about: Describe this issue template's purpose here.
-title: ''
+about: introduction to agile 
+title: 'agile'
 labels: documentation
 assignees: ojeengammah
 
