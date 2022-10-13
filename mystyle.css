@@ -109,8 +109,13 @@ body {
 }
 body {
   display: grid;
+  grid: auto auto / auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #504F40;
+  padding: 10px;
   grid: unset;
   grid: revert;
+  
 
  
 } 
@@ -119,4 +124,10 @@ body {
 }
 .agend{
   font-family: "Gabriola";
+}
+* {
+  color: black;
+}
+a[title] {
+  color: rgb(0, 128, 38);
 }
