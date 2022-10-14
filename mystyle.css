@@ -94,6 +94,7 @@ h1{
 /*this hidden class not supposed to be shown on the page.*/
 .hidden{
   display: none;
+  
 }
 #images {
   width: 20px;
@@ -142,11 +143,23 @@ li {
 li li {
   list-style-type: circle;
 }
-h7 em { color: blue; }
-h10 + h11 { opacity: 5;
+h6 em { color: blue; }
+h5 + h6 { opacity: 5;
 color: green; }
 
 body > p { color: blue; }
 li:first-of-type + li {
   color: #8D6826;
+}
+a[href^="#"]{
+  color: #f7fcfc;
+}
+
+@media (min-width: 1250px) {
+  * {
+      background-color: #504F40;
+  }
+}
+.teste{
+  display: inline-grid;
 }
